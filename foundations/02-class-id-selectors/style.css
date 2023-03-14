@@ -2,3 +2,18 @@
     background-color: #FFB6C1;
     font-family: Verdana, "DejaVu Sans", sans-serif;
 }
+
+#second-element {
+    color: #00f;
+    font-size: 36px;
+}
+
+.odd-numbered-element.third-element {
+    font-size: 24px;
+}
+
+#fourth-element {
+    background-color: #90ee90;
+    font-size: 24px;
+    font-weight: bold;
+}
