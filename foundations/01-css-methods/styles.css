@@ -1,6 +1,6 @@
 div {
     background-color: red;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: bold;
     text-align: center;
     color: white;
@@ -9,8 +9,10 @@ div {
 p {
     background-color: green;
     color: white;
+    font-size: 18px;
 }
 
 button {
     background-color: orange;
+    font-size: 18px;
 }
