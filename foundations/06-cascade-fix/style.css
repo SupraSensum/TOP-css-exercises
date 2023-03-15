@@ -2,6 +2,12 @@ body{
   font-family:Arial, Helvetica, sans-serif
 }
 
+/* 
+I could delete the last grouping selector below,
+`small-para`, but it doesn't seem to be hurting
+anything. After all, the only element with that class
+name would need those style rules anyway so ¯\_(ツ)_/¯
+*/
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
