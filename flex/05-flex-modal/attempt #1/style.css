@@ -69,28 +69,44 @@ button.cancel {
 
 .modal {
   display: flex;
-  padding: 16px;
-  gap: 16px;
+  flex-direction: row;
+  padding: 8px;
 }
 
-.icon {
-  flex-shrink: 0;
-}
-
-.close-button-header {
+.modal > * {
   display: flex;
+}
+
+.column-left {
+  min-width: 50px;
+  flex: 1 0 auto;
+  justify-content: center;
+  padding: 16px;
+}
+
+.column-right {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  padding: 16px 16px 16px 0px;
+  gap: 8px;
+}
+
+.column-right div {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-row {
   justify-content: space-between;
   align-items: center;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
+.header-row h3 {
+  margin: 0px;
+  padding: 0px;
 }
 
-.buttons {
-}
-
-.text {
-  margin-bottom: 16px;
+.button-row {
+  gap: 4px;
 }
